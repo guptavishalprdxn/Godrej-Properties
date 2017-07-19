@@ -234,13 +234,18 @@ nav li:before{
   width: 100%;
 }
 .wrapper-com{
-  width: 90%;
+  width: 1219px;
   background-color: red;
-  margin: 0 auto;
+  margin: 0px 0 0 65px;
 }
-.commercial-area{
-  width: 50%;
-  height: 300px;
+.commercial-area,
+.commercial-form{
+  width: 607px;
+  height: 425px;
+  display: inline-block;
+  /* float: left; */
+  vertical-align: top;
+  background-color: green;
 }
 .commercial-area h2{
   font-weight: 800;
@@ -250,7 +255,7 @@ nav li:before{
 
 .commercial-area p{
   line-height: 17px;
-  padding: 0 0 9px 4px;
+  padding: 0 2px 9px 4px;
   word-spacing: 4px;
 }
 
@@ -258,4 +263,48 @@ nav li:before{
   word-spacing: 4px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+.commercial-form{
+  background:url('../images/main-home-bg.jpg');
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.form-area{
+  background-color: rgba(1,1,1,0.6);
+  border-radius: 10px;
+  color: #fff;
+  height: 84%;
+  margin: 30px auto;
+  width: 75%;
+}
+.label-sec{
+  width: 200px;
+  display: inline-block;
+  text-indent: 20px;
+}
+.label-sec label{
+  display: block;
+  line-height: 64px;
+}
+.input-sec{
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+.input-sec input{
+  width: 200px;
+  height: 35px;
+  text-indent: 10px;
+  margin: 21px 0 0 0;
+}
+.input-sec button{
+  width: 200px;
+  height: 33px;
+  background-color: #84b54c;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 21px 0 0 0;
+
 }

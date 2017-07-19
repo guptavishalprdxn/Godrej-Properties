@@ -85,15 +85,23 @@
 								<form method="post">
 										<div class="label-sec">
 											<label for="loan-field">Loan</label>
-											<label for="interest-rate">Interest Rate(%)</label>
-											<label for="no-of-year">No. of years</label>
-											<label for="emi">EMI</label> <span>(per month)</span>
-										</div>
-										<div class="input-sec">
 											<input type="number" name="loan" id="loan-field" placeholder="Enter amount" required>
+											
+										</div>
+										<div class="label-sec">
+											<label for="interest-rate">Interest Rate(%)</label>
 											<input type="number" name="interest_rate" id="interest-rate" placeholder="Enter interest rate" required />
+										
+										</div>
+										<div class="label-sec">
+											<label for="no-of-year">No. of years</label>
 											<input type="number" name="no_year" id="no-of-year" placeholder="Enter no. of year" required>
+										</div>
+										<div class="label-sec">
 											<button type="submit" value="calculate">calculate</button>
+										</div>
+										<div class="label-sec">
+											<label for="emi">EMI <span>(per month)</span></label> 
 											<input type="number" name="emi" id="emi" placeholder="Calculated EMI">
 										</div>
 								</form>

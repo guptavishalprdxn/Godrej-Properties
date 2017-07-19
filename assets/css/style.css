@@ -245,5 +245,17 @@ nav li:before{
 .commercial-area h2{
   font-weight: 800;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 100px;
+}
+
+.commercial-area p{
+  line-height: 17px;
+  padding: 0 0 9px 4px;
+  word-spacing: 4px;
+}
+
+.commercial-area span{
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }

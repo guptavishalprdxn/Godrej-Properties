@@ -278,12 +278,11 @@ nav li:before{
   width: 75%;
 }
 .label-sec{
-  width: 200px;
-  display: inline-block;
-  text-indent: 20px;
+    width: 93%;
+    display: inline-block;
+    text-indent: 20px;
 }
 .label-sec label{
-  display: block;
   line-height: 64px;
 }
 .input-sec{
@@ -291,13 +290,14 @@ nav li:before{
   display: inline-block;
   vertical-align: top;
 }
-.input-sec input{
+.label-sec input{
   width: 200px;
   height: 35px;
   text-indent: 10px;
   margin: 21px 0 0 0;
+  float: right;
 }
-.input-sec button{
+.label-sec button{
   width: 200px;
   height: 33px;
   background-color: #84b54c;
@@ -305,6 +305,7 @@ nav li:before{
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+  float: right;
   margin: 21px 0 0 0;
 
 }

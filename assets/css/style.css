@@ -153,3 +153,73 @@ sub { bottom: -.25em; }
   font-style: normal;
   font-weight: bold;
 }
+body{
+  font-family: arial;
+}
+a{
+  text-decoration: none;
+  /*color:#000;*/
+}
+/*container*/
+.container{
+  width: 100%;
+  height: 2000px;
+  background-color: auto;
+}
+.wrapper-header{
+  width: 98%;
+  margin: 0 auto;
+}
+header{
+  height: 55px;
+  /*background-color: aqua;*/
+  box-shadow: 0 0 1px black;
+}
+header h1{
+  width: 143px;
+  /* height: 62px; */
+  display: inline-block;
+  margin: 14px 0 0 0px;
+}
+header img,
+.nav-right img{
+  margin: 0px 12px 0 13px;
+}
+nav{
+  display: inline-block;
+  margin: 0 0 0 8px;
+}
+nav li{
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+header a{
+  color:#898989;
+}
+nav li:before{
+  content: "|";
+  color: #898989;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 0 12px 0 12px;
+}
+.nav-right{
+  display: inline-block;
+  float: right;
+}
+.nav-right ul{
+  display: inline-block;
+}
+.nav-right ul li{
+  display: inline-block;
+}
+.nav-right a img{
+    width: 177px;
+    height: 46px;
+    margin: 0px;
+}
+.deskotp-call-btn{
+  width: 35px;
+  height: 35px;
+}

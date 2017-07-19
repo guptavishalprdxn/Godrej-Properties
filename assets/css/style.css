@@ -188,6 +188,7 @@ header img,
 nav{
   display: inline-block;
   margin: 0 0 0 8px;
+  font-size: 15px;
 }
 nav li{
   display: inline-block;

@@ -207,6 +207,7 @@ nav li:before{
 .nav-right{
   display: inline-block;
   float: right;
+  margin: 5px 0 0 0;
 }
 .nav-right ul{
   display: inline-block;
@@ -214,12 +215,35 @@ nav li:before{
 .nav-right ul li{
   display: inline-block;
 }
+.nav-right ul li:nth-child(2):before{
+  content: "|";
+  color: #898989;
+  font-size: 20px;
+  font-weight: 100;
+}
 .desktop-call-btn{
   width: 35px;
   height: 35px;
 }
 .godrej-logo{
     width: 177px;
-    height: 46px;
+    height: 41px;
     margin: 0px;
+}
+.commercial-content{
+  width: 100%;
+}
+.wrapper-com{
+  width: 90%;
+  background-color: red;
+  margin: 0 auto;
+}
+.commercial-area{
+  width: 50%;
+  height: 300px;
+}
+.commercial-area h2{
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 30px;
 }

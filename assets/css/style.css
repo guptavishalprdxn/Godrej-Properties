@@ -214,12 +214,12 @@ nav li:before{
 .nav-right ul li{
   display: inline-block;
 }
-.nav-right a img{
+.desktop-call-btn{
+  width: 35px;
+  height: 35px;
+}
+.godrej-logo{
     width: 177px;
     height: 46px;
     margin: 0px;
-}
-.deskotp-call-btn{
-  width: 35px;
-  height: 35px;
 }

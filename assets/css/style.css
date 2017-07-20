@@ -255,12 +255,12 @@ nav li:before{
 .commercial-area h2{
   font-weight: 800;
   font-size: 40px;
-  padding: 47px 0 47px 0;
+  padding: 47px 0 28px 0;
 }
 
 .commercial-area p{
   line-height: 17px;
-  padding: 16px 2px 9px 4px;
+  padding: 3px 2px 19px 4px;
   word-spacing: 4px;
 }
 
@@ -372,6 +372,7 @@ footer{
   display: block;
   line-height: 28px;
   color: #000;
+  font-size: 16px;
 }
 .footer-advert a:hover{ 
   color: #2893fb;
@@ -388,7 +389,20 @@ footer{
 }
 .footer-advert ul li{
   display: inline-block;
+  padding: 0 24px 0 7px;
+}
+.footer-advert li a{
+  width: 40px;
+  height: 40px;
+  background: #000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 48px;
+}
+.footer-advert li a:hover{
+  background-color: #7a7a7a;
 }
 .footer-advert li i {
-  color: #fff;
+    color: #fff;
+    font-size: 26px;
 }

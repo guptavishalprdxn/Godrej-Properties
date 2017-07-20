@@ -163,8 +163,7 @@ a{
 /*container*/
 .container{
   width: 100%;
-  height: 2000px;
-  background-color: auto;
+  height: auto;
 }
 .wrapper-header{
   width: 98%;
@@ -353,4 +352,43 @@ nav li:before{
 }
 .commercial-form:nth-child(1) {
   margin: 0;
+}
+footer{
+  width: 100%;
+  background-color: #e4e4e4;
+}
+.footer-wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-box{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0px 0 30px;
+  padding: 20px 0 20px 0;
+}
+.footer-advert a{
+  display: block;
+  line-height: 28px;
+  color: #000;
+}
+.footer-advert a:hover{ 
+  color: #2893fb;
+  cursor: pointer; 
+}
+.footer-advert h3{
+    font-size: 20px;
+    display: block;
+    line-height: 56px;
+}
+.footer-advert{
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+.footer-advert ul li{
+  display: inline-block;
+}
+.footer-advert li i {
+  color: #fff;
 }

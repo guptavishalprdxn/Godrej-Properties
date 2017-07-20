@@ -236,26 +236,27 @@ nav li:before{
 }
 .commercial-content{
   width: 100%;
+
 }
 .wrapper-com{
-  width: 94.9%;
-  background-color: red;
-  margin: 0px 0 0 65px;
+    width: 100%;
+    /*background-color: red;*/
+    /* margin: 0px 0 0 65px; */
 }
 .commercial-area,
 .commercial-form{
   width: 50%;
-  height: 425px;
+  height: 450px;
   display: inline-block;
   /* float: left; */
   vertical-align: top;
-  background-color: green;
+  /*background-color: green;*/
   margin: 0 -4px 0 0;
 }
 .commercial-area h2{
   font-weight: 800;
-  font-size: 30px;
-  line-height: 100px;
+  font-size: 40px;
+  padding: 47px 0 47px 0;
 }
 
 .commercial-area p{
@@ -270,23 +271,33 @@ nav li:before{
   text-transform: uppercase;
 }
 .commercial-form{
-  background:url('../images/main-home-bg.jpg');
-  background-size: cover;
-  background-position: 100% 100%;
+    background: url(../images/main-home-bg.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 0 0 73px;
 }
-.form-area{
+
+.form-area {
   background-color: rgba(1,1,1,0.6);
   border-radius: 10px;
   color: #fff;
-  height: 84%;
-  margin: 30px auto;
+  height: 86%;
+  margin: 32px auto;
   width: 75%;
 }
+.form-area p{
+  font-size: 15px;
+  width: 55%;
+  display: inline-block;
+  float: right;
+  }
 .label-sec{
     width: 93%;
     display: inline-block;
     text-indent: 34px;
     line-height: 73px;
+    margin: 4px 0 0 0;
 }
 .label-sec label{
   line-height: 64px;
@@ -297,14 +308,14 @@ nav li:before{
   vertical-align: top;
 }
 .label-sec input{
-  width: 200px;
+  width: 227px;
   height: 35px;
   text-indent: 10px;
   margin: 21px 0 0 0;
   float: right;
 }
 .label-sec button{
-  width: 204px;
+  width: 230px;
   height: 33px;
   background-color: #84b54c;
   border: none;
@@ -316,4 +327,30 @@ nav li:before{
 }
 .label-sec p{
   text-align: right;
+}
+.testimonial{
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 0 1px #000;
+  /*background-color: red;*/
+}
+.wrapper-testimonial{
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+.testimonial p
+{
+  font-size: 40px;
+  padding: 50px 0 0 0;
+}
+.testimonial i{
+  font-size: 15px;
+}
+.commercial-area{
+  width: 38.3%;
+  margin: 0 0 0 73px;
+}
+.commercial-form:nth-child(1) {
+  margin: 0;
 }

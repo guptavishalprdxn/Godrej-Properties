@@ -198,6 +198,9 @@ nav li{
 header a{
   color:#898989;
 }
+header a:hover{
+  text-decoration: underline;
+}
 nav li:before{
   content: "|";
   color: #898989;
@@ -235,18 +238,19 @@ nav li:before{
   width: 100%;
 }
 .wrapper-com{
-  width: 1219px;
+  width: 94.9%;
   background-color: red;
   margin: 0px 0 0 65px;
 }
 .commercial-area,
 .commercial-form{
-  width: 607px;
+  width: 50%;
   height: 425px;
   display: inline-block;
   /* float: left; */
   vertical-align: top;
   background-color: green;
+  margin: 0 -4px 0 0;
 }
 .commercial-area h2{
   font-weight: 800;
@@ -256,7 +260,7 @@ nav li:before{
 
 .commercial-area p{
   line-height: 17px;
-  padding: 0 2px 9px 4px;
+  padding: 16px 2px 9px 4px;
   word-spacing: 4px;
 }
 
@@ -281,7 +285,8 @@ nav li:before{
 .label-sec{
     width: 93%;
     display: inline-block;
-    text-indent: 20px;
+    text-indent: 34px;
+    line-height: 73px;
 }
 .label-sec label{
   line-height: 64px;
@@ -299,7 +304,7 @@ nav li:before{
   float: right;
 }
 .label-sec button{
-  width: 200px;
+  width: 204px;
   height: 33px;
   background-color: #84b54c;
   border: none;
@@ -307,6 +312,8 @@ nav li:before{
   text-transform: uppercase;
   color: #fff;
   float: right;
-  margin: 21px 0 0 0;
-
+  margin: 19px 0 0 0;
+}
+.label-sec p{
+  text-align: right;
 }

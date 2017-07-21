@@ -198,7 +198,7 @@ header a{
   color:#898989;
 }
 header a:hover{
-  text-decoration: underline;
+  color:#0084ff;
 }
 nav li:before{
   content: "|";
@@ -375,7 +375,7 @@ footer{
   font-size: 16px;
 }
 .footer-advert a:hover{ 
-  color: #2893fb;
+  color: #0084ff;
   cursor: pointer; 
 }
 .footer-advert h3{
